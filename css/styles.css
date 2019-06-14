@@ -1,0 +1,415 @@
+@font-face {
+  font-family: Problack;
+  src: url(Source_Sans_Pro/SourceSansPro-Black.ttf);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Source_Sans_Pro/SourceSansPro-ExtraLightItalic.ttf);
+}
+
+@font-face {
+  font-family: light;
+  src: url(Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+
+
+@font-face {
+  font-family: regular;
+  src: url(Source_Sans_Pro/SourceSansPro-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: shouldArt;
+  src: url(Source_Sans_Pro/SourceSansPro-Light.otf);
+}
+
+@font-face {
+  font-family: semiBold;
+  src: url(Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+}
+
+
+body{
+	margin : 0;
+	padding : 0;
+  width: 100%;
+}
+
+.bottom{
+	position: relative;
+  width: 100%;
+}
+
+div header {
+  display: block;
+  border-top: solid 1px white;
+  list-style-type: none;
+  background: #585858;
+  overflow: hidden;
+  text-align: center;
+  padding: 8px 10px 8px 8px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 5px;
+}
+
+header span:first-child {
+  position: relative;
+  top: 1px;
+  left: 3px;
+}
+
+span {
+  font-family: semiBold;
+  float: left;
+}
+
+span a {
+  font-family: semiBold;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.bottom-content{
+  position: relative;
+  float: none;
+  clear: both;
+  height: 300px;
+}
+
+.top-content{
+	position: relative;
+  background-image: url(images/background.jpg);
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 470px;
+}
+
+.top-content h4 {
+  font-family: shouldArt;
+  font-size: 25px;
+  color: white;
+  top: 190px;
+  left: 100px;
+  float: left;
+  position: absolute;
+}
+
+.top-content h1 {
+  font-family: Problack;
+  font-size: 40px;
+  color: white;
+  top: 150px;
+  left: 100px;
+  float: left;
+  position: absolute;
+}
+
+h3 {
+  font-family: Problack;
+  position: absolute;
+  font-size: 40px;
+  letter-spacing: -1px;
+  /*margin-bottom: 30px;*/
+  text-align: center;
+  right: 470px;
+  top: -10px;
+}
+
+.button2 {
+  font-family: Problack;
+  position: absolute;
+  background-color: #e7e7e7;
+  border-radius: 4px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  left: 95px;
+  bottom: 160px;
+}
+
+.button3 {
+  font-family: Problack ;
+  position: absolute;
+  background-color: #FF8C00;
+  border-radius: 4px;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  left: 210px;
+  bottom: 160px;
+}
+
+.right-image{
+  position: absolute;
+  background: url(images/image_left.png);
+  background-repeat: no-repeat;
+  border:solid 7px #585858;
+  width: 85px;
+  height: 170px;
+  top: 20px;
+  right: 70px;
+}
+
+.middle-image{
+  position: absolute;
+  background: url(images/image_middle.png);
+  border: solid 8px #A85418;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 130px;
+  top: 20px;
+  right:180px;
+}
+
+.left-image{
+  position: absolute;
+  background: url(images/image_left-04.png);
+  border: solid 5px #585858;
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 95px;
+  top: 62px;
+  right: 357px;
+}
+
+.table-image{
+  position: absolute;
+  background: url(images/table_chair.png);
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 480px;
+  top: -30px;
+  right: 70px;
+}
+
+div h6 {
+  font-family: regular;
+  position: relative;
+  right: 80px;
+  top: 180px;
+  bottom:0px;
+  display: inline-block;
+}
+
+.grey .computer{
+  margin-top: -10px;
+  margin-left: -16px;
+}
+
+.pink .return{
+  margin-top: -10px;
+  margin-left: -16px;
+}
+
+.yellow .picture{
+  margin-top: -10px;
+  margin-left: -16px;
+}
+
+.blue .home{
+  margin-top: -10px;
+  margin-left: -16px;
+}
+
+.grey {
+
+  background: #DCDCDC;
+  border: 1px solid #DCDCDC;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  position: absolute;
+  padding: 40px;
+  right: 890px;
+  top: 130px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div #g1 {
+  margin-left: -10px;
+  margin-top: 10px;
+  position: absolute;
+  left:290px;
+  top:35px;
+  bottom:0px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+
+}
+
+.blue {
+  margin-top: -10px;
+  margin-left: -18px;
+  background: #DCDCDC;
+  border: 1px solid #DCDCDC;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  position: absolute;
+  padding: 30px;
+  left: 455px;
+  top: 130px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div #b1 {
+  position: absolute;
+  left:510px;
+  top:35px;
+  bottom:0px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+
+}
+
+.yellow {
+  margin-top: -10px;
+  margin-left: -18px;
+  background: #DCDCDC;
+  border: 1px solid #DCDCDC;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  position: absolute;
+  padding: 30px;
+  left: 680px;
+  top: 130px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div #y1 {
+  position: absolute;
+  left: 730px;
+  top:35px;
+  bottom:0px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+}
+
+.pink {
+  margin-top: -10px;
+  margin-left: -18px;
+  background: #DCDCDC;
+  border: 1px solid #DCDCDC;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  position: absolute;
+  padding: 30px;
+  right: 240px;
+  top: 130px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div #p1 {
+  position: absolute;
+  left:950px;
+  top:35px;
+  bottom:0px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+}
+
+div footer {
+  display: block;
+  list-style-type: none;
+  background: #DCDCDC;
+  overflow: hidden;
+  text-align: center;
+  padding: 8px 10px 8px 8px;
+  text-decoration: none;
+  font-size: 15px;
+  height: 70px;
+  position: relative;
+  top: 100px;
+}
+
+.foot-icon{
+	float: right;
+	right: 100px;
+}
+
+div p {
+  font-family: regular ;
+  font-size: 13px;
+  color: #696969;
+  position: relative;
+  right: 602px;
+  bottom: 0px;
+  top: 40px;
+}
+
+div .terms p {
+  font-family: regular ;
+  font-size: 13px;
+  position: relative;
+  right: 335px;
+  bottom: 0px;
+  top: 10px;
+}
+
+.footer-home{
+  font-family: Problack;
+  color: black;
+}
+
+.work{
+  font-family: Problack;
+  color: #FF8C00;
+}
+
+.help{
+  font-family: Problack;
+  color: #FF8C00;
+}
+
+.gallery{
+  font-family: Problack;
+  color: #FF8C00;
+}
+
+
+.GALLERIS{
+  font-family: Problack;
+  color: #D3D3D3;
+}
+
+.WORKING{
+  font-family: Problack;
+  color: #D3D3D3;
+}
+
+.HELPING{
+  font-family: Problack;
+  color: #D3D3D3;
+}
+
