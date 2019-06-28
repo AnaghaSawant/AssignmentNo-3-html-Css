@@ -41,6 +41,10 @@ body{
   width: 100%;
 }
 
+/*div .top{
+  border-left: thin solid black;
+}
+*/
 div header {
   display: block;
   border-top: solid 1px white;
@@ -114,18 +118,17 @@ h3 {
   font-family: Problack;
   position: absolute;
   font-size: 40px;
-  letter-spacing: -1px;
-  /*margin-bottom: 30px;*/
   text-align: center;
-  right: 470px;
-  top: -10px;
+  left: 460px;
+  right: 460px;
+  bottom: 180px;
 }
 
 .button2 {
   font-family: Problack;
   position: absolute;
   background-color: #e7e7e7;
-  border-radius: 4px;
+  width: 100px;
   padding: 8px;
   text-align: center;
   text-decoration: none;
@@ -134,13 +137,14 @@ h3 {
   margin: 4px 2px;
   left: 95px;
   bottom: 160px;
+  border-width: 0;
 }
 
 .button3 {
   font-family: Problack ;
   position: absolute;
   background-color: #FF8C00;
-  border-radius: 4px;
+  width: 100px;
   color: white;
   padding: 8px;
   text-align: center;
@@ -150,6 +154,7 @@ h3 {
   margin: 4px 2px;
   left: 210px;
   bottom: 160px;
+  border-width: 0;
 }
 
 .right-image{
@@ -198,51 +203,50 @@ h3 {
 div h6 {
   font-family: regular;
   position: relative;
-  right: 80px;
-  top: 180px;
+  right: 70px;
+  top: 190px;
   bottom:0px;
   display: inline-block;
 }
 
-.grey .computer{
-  margin-top: -10px;
-  margin-left: -16px;
+.computer_icon .computer{
+  margin-top: 5px;
+  margin-left: -5px;
 }
 
-.pink .return{
-  margin-top: -10px;
-  margin-left: -16px;
+.return_icon .return{
+  margin-top: 5px;
+  margin-left: -5px;
 }
 
-.yellow .picture{
-  margin-top: -10px;
-  margin-left: -16px;
+.picture_icon .picture{
+  margin-top: 5px;
+  margin-left: -5px;
 }
 
-.blue .home{
-  margin-top: -10px;
-  margin-left: -16px;
+.home_icon .home{
+  margin-top: 5px;
+  margin-left: -5px;
 }
 
-.grey {
-
+.computer_icon {
+  margin-top: -10px;
+  margin-left: -18px;
   background: #DCDCDC;
   border: 1px solid #DCDCDC;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   overflow: hidden;
   position: absolute;
-  padding: 40px;
-  right: 890px;
+  padding: 30px;
+  left: 230px;
   top: 130px;
   text-align: center;
   vertical-align: middle;
 }
 
-div #g1 {
-  margin-left: -10px;
-  margin-top: 10px;
+div #computer_icon_text {
   position: absolute;
   left:290px;
   top:35px;
@@ -254,14 +258,14 @@ div #g1 {
 
 }
 
-.blue {
+.home_icon {
   margin-top: -10px;
   margin-left: -18px;
   background: #DCDCDC;
   border: 1px solid #DCDCDC;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   overflow: hidden;
   position: absolute;
   padding: 30px;
@@ -271,7 +275,7 @@ div #g1 {
   vertical-align: middle;
 }
 
-div #b1 {
+div #home_icon_text {
   position: absolute;
   left:510px;
   top:35px;
@@ -283,14 +287,14 @@ div #b1 {
 
 }
 
-.yellow {
+.picture_icon {
   margin-top: -10px;
   margin-left: -18px;
   background: #DCDCDC;
   border: 1px solid #DCDCDC;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   overflow: hidden;
   position: absolute;
   padding: 30px;
@@ -300,7 +304,7 @@ div #b1 {
   vertical-align: middle;
 }
 
-div #y1 {
+div #picture_icon_text {
   position: absolute;
   left: 730px;
   top:35px;
@@ -308,27 +312,27 @@ div #y1 {
   vertical-align: top;
   display: inline-block;
   text-align: center;
-  width: 100px;
+  width: 97px;
 }
 
-.pink {
+.return_icon {
   margin-top: -10px;
   margin-left: -18px;
   background: #DCDCDC;
   border: 1px solid #DCDCDC;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   overflow: hidden;
   position: absolute;
   padding: 30px;
-  right: 240px;
+  left: 890px;
   top: 130px;
   text-align: center;
   vertical-align: middle;
 }
 
-div #p1 {
+div #return_icon_text {
   position: absolute;
   left:950px;
   top:35px;
@@ -336,7 +340,7 @@ div #p1 {
   vertical-align: top;
   display: inline-block;
   text-align: center;
-  width: 100px;
+  width: 110px;
 }
 
 div footer {
@@ -358,57 +362,54 @@ div footer {
 	right: 100px;
 }
 
-div p {
+div .reserved{
   font-family: regular ;
   font-size: 13px;
-  color: #696969;
-  position: relative;
-  right: 602px;
-  bottom: 0px;
-  top: 40px;
-}
+  position: absolute;
+  left: 20px;
+  bottom: 5px;
+} 
 
-div .terms p {
+div .terms{
   font-family: regular ;
   font-size: 13px;
-  position: relative;
-  right: 335px;
-  bottom: 0px;
-  top: 10px;
-}
+  position: absolute;
+  left: 340px;
+  bottom: 5px;
+} 
 
 .footer-home{
   font-family: Problack;
   color: black;
 }
 
-.work{
+.footer-work{
   font-family: Problack;
   color: #FF8C00;
 }
 
-.help{
+.footer-help{
   font-family: Problack;
   color: #FF8C00;
 }
 
-.gallery{
+.footer-gallery{
   font-family: Problack;
   color: #FF8C00;
 }
 
 
-.GALLERIS{
+.header-gallery{
   font-family: Problack;
   color: #D3D3D3;
 }
 
-.WORKING{
+.header-work{
   font-family: Problack;
   color: #D3D3D3;
 }
 
-.HELPING{
+.header-help{
   font-family: Problack;
   color: #D3D3D3;
 }
