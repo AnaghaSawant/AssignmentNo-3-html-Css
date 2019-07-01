@@ -41,18 +41,14 @@ body{
   width: 100%;
 }
 
-/*div .top{
-  border-left: thin solid black;
-}
-*/
-div header {
+div .top header {
   display: block;
   border-top: solid 1px white;
   list-style-type: none;
   background: #585858;
   overflow: hidden;
   text-align: center;
-  padding: 8px 10px 8px 8px;
+  padding: 2px 2px 2px 2px;
   text-decoration: none;
   font-size: 15px;
   line-height: 5px;
@@ -400,17 +396,31 @@ div .terms{
 
 
 .header-gallery{
+  border-right: thin solid black;
   font-family: Problack;
   color: #D3D3D3;
+  font-size: 18px;
 }
 
 .header-work{
+  border-right: thin solid black;
   font-family: Problack;
   color: #D3D3D3;
+  font-size: 18px;
 }
 
 .header-help{
+  border-right: thin solid black;
   font-family: Problack;
   color: #D3D3D3;
+  font-size: 18px;
+}
+
+.artforth{
+  border-right: thin solid black;
+  height: 32px;
+  width: 120px;
+  margin-right: 2px;
+  padding-right: 10px;
 }
 
